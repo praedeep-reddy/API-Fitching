@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0px 3% 3% 3%;
+}
+
+header{
+    font-size: 30px;
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input{
+    padding: 10px;
+    margin-left: 20%;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    max-width: 1200px;
+    padding: 30px;
+    padding-left: 10%;
+    background-color: #ff7070;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+
+.category {
+    margin-bottom: 40px;
+}
+
+.category h2 {
+    margin-top: 0;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: calc(20% - 20px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.product-card .price {
+    color: #e91e63;
+    font-weight: bold;
+}
+
+.product-card .compare-at-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.product-card .vendor,
+.product-card .badge {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.product-card .cart{
+    margin: 10px 0px 0px 40px;
+    width: 60px;
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.fa fa-shopping-cart{
+    height: 10px;
+    width: 10px;
+}
